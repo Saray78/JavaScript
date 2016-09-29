@@ -1,0 +1,17 @@
+.completed{
+    text-decoration: line-through;
+    order: 200;
+}
+
+.completed:first-of-type{
+    margin-top: 3em;
+}
+.completed input{
+    display: none;
+}
+
+.task-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
